@@ -11,5 +11,4 @@ palavra_invertida = ''
 for i in range(len(lista), 0, -1):
     x = i - 1
     palavra_invertida += palavra_invertida.join(lista[x])
-
 print(palavra_invertida)
